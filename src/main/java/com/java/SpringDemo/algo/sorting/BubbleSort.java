@@ -1,4 +1,4 @@
-package com.java.SpringDemo.algo;
+package com.java.SpringDemo.algo.sorting;
 
 public class BubbleSort {
     public static void main(String[] args) {
