@@ -3,6 +3,9 @@ package com.java.SpringDemo.algo.sorting;
 public class SelectionSort {
     public static void main(String[] args) {
         //Selection sort
+        //Idea
+        //for first iteration -> for 0 , find the least element index from 1-9 and then swap with 0.
+        //Continue for 0th, 1st .....till nums.length-2
         int[] nums = {92, 53, 24, 74, 46};
         selectionSort(nums);
         System.out.println("==Selection Sorted Array==");

@@ -5,7 +5,7 @@ public class LinearSort {
             //Linear Sort
             int[] nums = {92,53,24,74,46};
             linearSort(nums);
-            System.out.println("==Sorted Array==");
+            System.out.println("==Linear Sorted Array==");
             printArr(nums);
         }
 
@@ -30,7 +30,7 @@ public class LinearSort {
                     int f = e + 1;
                     while (f <= nums.length-1) {
                         //printing series of indices
-                        //System.out.println(e + "," + f);
+                        System.out.println(e + "," + f);
                         if(nums[f]<nums[e]) swap(e,f,nums);
                         f++;
                     }
