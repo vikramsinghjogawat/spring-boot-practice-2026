@@ -1,4 +1,4 @@
-package com.java.SpringDemo.springAi;
+package com.java.SpringDemo.springAi_openai;
 
 public class SpringAIDemo {
 

@@ -1,4 +1,4 @@
-package com.java.SpringDemo.springAi;
+package com.java.SpringDemo.springAi_openai;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
