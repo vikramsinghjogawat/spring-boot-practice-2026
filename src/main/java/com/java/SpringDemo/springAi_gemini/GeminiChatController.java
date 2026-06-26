@@ -15,17 +15,17 @@ public class GeminiChatController {
 
     private final ChatModel chatClient;
     //Bean is configured in AIConfig class
-    GeminiChatController(ChatModel chatModel) {
+    public GeminiChatController(ChatModel chatModel) {
         this.chatClient = chatModel;
     }
 
     @PostMapping("/api/chatgemini")
-    OutputGemini chat (@RequestBody @Valid InputGemini input){
+    public OutputGemini chat (@RequestBody @Valid InputGemini input){
         String content = chatClient.call(input.prompt());
         return new OutputGemini(content);
     }
 
 
-    record InputGemini(@NotBlank String prompt){}
-    record OutputGemini(String content){}
+    public record InputGemini(@NotBlank String prompt){}
+    public record OutputGemini(String content){}
 }
