@@ -1,2 +1,2 @@
-# spring-boot-practice-2026
+# spring-ai-practice-2026
 Java implementation of algorithms
