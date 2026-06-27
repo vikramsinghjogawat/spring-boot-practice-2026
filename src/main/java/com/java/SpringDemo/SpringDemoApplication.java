@@ -10,13 +10,10 @@ public class SpringDemoApplication {
 			// Start the Spring Boot application
 			SpringApplication.run(SpringDemoApplication.class);
 //			SpringApplicationBuilder builder = new SpringApplicationBuilder(SpringDemoApplication.class);
-//
 //			// This line tells Spring that a GUI (AWT/Swing) will be used
 //			builder.headless(false);
-//
 //			// Optional: If you aren't running a web server (like Tomcat), set this to NONE
 //			builder.web(WebApplicationType.NONE);
-//
 //			builder.run(args);
 		}
 
